@@ -1,0 +1,27 @@
+package packageName; //The program states that it is a part of the package (a bit like a folder for java files) packageName
+                     //Look on the internet to find more information about this
+
+public class className { //The class className is declared. Look on the internet to find more information about this
+    
+    public static void main(String[] args) { //Dont worry about this. Simply put, you need it to run your program
+                                             //Look on the internet to find more information about this
+        
+        System.out.print("This is how to print text"); //This is the line of code which outputs the text This is how to print text
+    }
+}
+
+/*
+Line 9 is the main focus of our program so dont worry too much about the other lines of code above.
+
+The word System is a package which is automatically imported for use in java files. 
+By typing in System you can access the methods within it
+The word out is the standard output stream(like a tool) for printing out lines of text in a computer program
+The word print is the standard method (or function) used for printing objects (basically text and numbers)
+
+In conclusion You need to type in 'System.out.print("Your text here");' to print a line of text
+To print a line of text with a new line (backspace) after it you can type in:
+'System.out.println("Your text here");'
+or "System.out.print("Your text here\n");"
+
+The '\n' automatically creates a new line for you and can be used when you cant use 'println', for whatever reason
+*/
